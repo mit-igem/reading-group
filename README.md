@@ -1,6 +1,9 @@
 # Reading group
 
-## Paper list
+## Schedule
+- Engineering Microbial Living Therapeutics: The Synthetic Biology Toolbox
+
+## Other papers
 - Deep mutational scans (DMS)
   - Overview
     - [Measuring the activity of protein variants on a large scale using deep mutational scanning](https://www.nature.com/articles/nprot.2014.153)
