@@ -1,6 +1,12 @@
 # Reading group
 
 ## Schedule
+- Synbio toolbox
+  - pH, lactate, hypoxia: Enhancing the tropism of bacteria via genetically programmed biosensors
+  - [Amplifying Genetic Logic Gates | Science](https://www.science.org/doi/10.1126/science.1232758)
+  - Kill switches
+
+## Potential papers
 - Engineering Microbial Living Therapeutics: The Synthetic Biology Toolbox
 
 ## Other papers
