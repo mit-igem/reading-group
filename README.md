@@ -42,6 +42,13 @@
 - [Amplifying Genetic Logic Gates](https://www.science.org/doi/10.1126/science.1232758)
   - One of the cleanest implementations of logic gates using integrases.
 - [Modular control of multiple pathways using engineered orthogonal T7 polymerases](https://academic.oup.com/nar/article/40/17/8773/2411560?login=true)
+- [Synthetic Biology: Advancing the Design of Diverse Genetic Systems](https://www.annualreviews.org/doi/10.1146/annurev-chembioeng-061312-103351)
+- Cello
+  - Logic gates: 19-24
+  - Memory devices: 25-29
+  - Analog computation: 30
+  - Dynamic circuits: 15, 16, 31-33
+  - Applications: 34, 35
 
 
 ## Potential papers
