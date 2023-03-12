@@ -74,6 +74,9 @@
 - Computation and modeling
   - SBML Level 3: an extensible format for the exchange and reuse of biological models
 
+## Review articles
+- [Journal of Biological Chemistry Thematic Reviews](https://www.jbc.org/thematic-series)
+
 ## Other papers
 - Deep mutational scans (DMS)
   - Overview
