@@ -1,4 +1,17 @@
 #!/usr/bin/env python
+"""
+expected file format:
+
+>DOI1 # TITLE1
+- TOPIC1: REF1, REF2, REFa-b
+- TOPIC2: REF3, REF4
+
+>DOI2 # TITLE2
+- TOPIC1: REF1, REF2, REFa-b
+- TOPIC2: REF3, REF4
+
+etc.
+"""
 
 import argparse
 import os
@@ -28,6 +41,7 @@ def normalize(refids):
 
 def main(refs, ofile):
     data = {}
+    doi2title = {}
     # data: dict[doi -> dict[topic -> list[refs]]]
 
     with open(refs) as f:
@@ -39,7 +53,10 @@ def main(refs, ofile):
                 if doi is not None and len(topic2refs) != 0:
                     data[doi] = topic2refs.copy()
 
-                doi = line[1:].split("#")[0].strip()
+                doi, title = line[1:].split("#")
+                doi = doi.strip()
+                title = title.strip()
+                doi2title[doi] = title
                 topic2refs = {}
 
             elif line.startswith("-"):
@@ -50,21 +67,22 @@ def main(refs, ofile):
         for doi, topic2refs in data.items():
             paperrefs = get_refs(doi)
 
-            fout.write(f"original article: https://www.doi.org/{doi}\n")
+            fout.write(f"- {doi2title[doi]} (https://www.doi.org/{doi})\n")
 
             for topic, refids in topic2refs.items():
                 refids = normalize(refids)
 
-                fout.write(f"- {topic}\n")
+                fout.write(f"  - {topic}\n")
                 for refid in refids:
-                    uid = paperrefs[refid - 1].get('DOI')
+                    uid = paperrefs[refid - 1].get("DOI")
+                    title = paperrefs[refid - 1].get("article-title", "title not found")
 
                     if uid:
                         uid = f"https://www.doi.org/{uid}"
                     else:
                         uid = f"https://www.doi.org/{doi} ref {refid}"
 
-                    fout.write(f"  - {uid}\n")
+                    fout.write(f"    - {title} ({uid})\n")
 
     print("[i] Done.")
 

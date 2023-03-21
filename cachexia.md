@@ -1,0 +1,20 @@
+- Management of Cancer Cachexia: Attempting to Develop New Pharmacological Agents for New Effective Therapeutic Options (https://www.doi.org/10.3389/fonc.2020.00298)
+  - TLR4/MyD88 mediates skeletal muscle wasting
+    - The toll-like receptor/MyD88/XBP1 signaling axis mediates skeletal muscle wasting during cancer cachexia (https://www.doi.org/10.1128/MCB.00184-19)
+    - High expression of Toll-like receptor 4/myeloid differentiation factor 88 signals correlates with poor prognosis in colorectal cancer (https://www.doi.org/10.1038/sj.bjc.6605558)
+- Cancer cachexia: a nutritional or a systemic inflammatory syndrome? (https://www.doi.org/10.1038/s41416-022-01826-2)
+  - Systemic inflammation and outcomes in patients
+    - title not found (https://www.doi.org/10.1016/S1470-2045(14)70263-3)
+    - title not found (https://www.doi.org/10.1038/bjc.2014.90)
+    - title not found (https://www.doi.org/10.1038/s41598-017-16955-5)
+    - title not found (https://www.doi.org/10.1016/j.critrevonc.2017.06.002)
+    - title not found (https://www.doi.org/10.1016/j.critrevonc.2018.09.016)
+- Cancer cachexia: Pathophysiology and association with cancer-related pain (https://www.doi.org/10.3389/fpain.2022.971295)
+  - Involvement of inflammation in cachexia
+    - Cancer-associated cachexia (https://www.doi.org/10.1038/nrdp.2017.105)
+    - Inter-tissue communication in cancer cachexia (https://www.doi.org/10.1038/s41574-018-0123-0)
+    - Cancer cachexia: understanding the molecular basis (https://www.doi.org/10.1038/nrc3829)
+    - Cancer cachexia: a nutritional or a systemic inflammatory syndrome? (https://www.doi.org/10.1038/s41416-022-01826-2)
+    - The influence of systemic inflammation, dietary intake and stage of disease on rate of weight loss in patients with gastro-oesophageal cancer (https://www.doi.org/10.1038/sj.bjc.6604828)
+  - Non-inflammatory mediators activin A, myostatin, GDF15, lipocalin-2
+    - Emerging signaling mediators in the anorexia–cachexia syndrome of cancer (https://www.doi.org/10.1016/j.trecan.2022.01.004)
