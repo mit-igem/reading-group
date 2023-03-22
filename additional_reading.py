@@ -14,8 +14,24 @@ etc.
 """
 
 import argparse
-import json
 import requests
+
+def find_delta(a, b):
+    prefix = []
+    for ca, cb in zip(a, b):
+        if ca == cb:
+            prefix.append(ca)
+        else:
+            break
+    
+    suffix = []
+    for ca, cb in zip(a[::-1], b[::-1]):
+        if ca == cb:
+            suffix.append(ca)
+        else:
+            break
+    
+    return len(prefix), len(suffix)
 
 def get_refs(doi):
     endpoint = f"https://api.crossref.org/works/{doi}"
@@ -23,8 +39,16 @@ def get_refs(doi):
 
     refs = r.json()["message"]["reference"]
 
-    print(json.dumps(refs, indent=2))
-    return refs
+    plen, slen = find_delta(refs[0]["key"], refs[1]["key"])
+
+    refs_dict = {}
+
+    for ref in refs:
+        key = ref["key"]
+        refnum = int(key[plen:len(key)-slen])
+        refs_dict[refnum] = ref
+
+    return refs_dict
 
 def normalize(refids):
     refids = refids.split(",")
@@ -80,9 +104,14 @@ def main(refs, ofile):
 
                 fout.write(f"  - {topic}\n")
                 for refid in refids:
-                    uid = paperrefs[refid - 1].get("DOI")
-                    title = paperrefs[refid - 1].get("article-title")
-                    unstructured = paperrefs[refid - 1].get("unstructured", "no title")
+                    if refid in paperrefs:
+                        uid = paperrefs[refid].get("DOI")
+                        title = paperrefs[refid].get("article-title")
+                        unstructured = paperrefs[refid].get("unstructured", "no title")
+                    else:
+                        uid = None
+                        title = None
+                        unstructured = "no title"
 
                     if uid:
                         uid = f"https://www.doi.org/{uid}"
