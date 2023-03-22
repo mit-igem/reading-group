@@ -4,11 +4,11 @@
     - High expression of Toll-like receptor 4/myeloid differentiation factor 88 signals correlates with poor prognosis in colorectal cancer (https://www.doi.org/10.1038/sj.bjc.6605558)
 - Cancer cachexia: a nutritional or a systemic inflammatory syndrome? (https://www.doi.org/10.1038/s41416-022-01826-2)
   - Systemic inflammation and outcomes in patients
-    - title not found (https://www.doi.org/10.1016/S1470-2045(14)70263-3)
-    - title not found (https://www.doi.org/10.1038/bjc.2014.90)
-    - title not found (https://www.doi.org/10.1038/s41598-017-16955-5)
-    - title not found (https://www.doi.org/10.1016/j.critrevonc.2017.06.002)
-    - title not found (https://www.doi.org/10.1016/j.critrevonc.2018.09.016)
+    - Diakos CI, Charles KA, McMillan DC, Clarke SJ. Cancer-related inflammation and treatment effectiveness. Lancet Oncol. 2014;15:e493–503. (https://www.doi.org/10.1016/S1470-2045(14)70263-3)
+    - Roxburgh CS, McMillan DC. Cancer and systemic inflammation: treat the tumour and treat the host. Br J Cancer. 2014;110:1409–12. (https://www.doi.org/10.1038/bjc.2014.90)
+    - Dolan RD, Lim J, McSorley ST, Horgan PG, McMillan DC. The role of the systemic inflammatory response in predicting outcomes in patients with operable cancer: Systematic review and meta-analysis. Sci Rep. 2017;7:16717. (https://www.doi.org/10.1038/s41598-017-16955-5)
+    - Dolan RD, McSorley ST, Horgan PG, Laird B, McMillan DC. The role of the systemic inflammatory response in predicting outcomes in patients with advanced inoperable cancer: Systematic review and meta-analysis. Crit Rev Oncol Hematol. 2017;116:134–46. (https://www.doi.org/10.1016/j.critrevonc.2017.06.002)
+    - Dolan RD, Laird BJA, Horgan PG, McMillan DC. The prognostic value of the systemic inflammatory response in randomised clinical trials in cancer: a systematic review. Crit Rev Oncol Hematol. 2018;132:130–7. (https://www.doi.org/10.1016/j.critrevonc.2018.09.016)
 - Cancer cachexia: Pathophysiology and association with cancer-related pain (https://www.doi.org/10.3389/fpain.2022.971295)
   - Involvement of inflammation in cachexia
     - Cancer-associated cachexia (https://www.doi.org/10.1038/nrdp.2017.105)
@@ -18,3 +18,16 @@
     - The influence of systemic inflammation, dietary intake and stage of disease on rate of weight loss in patients with gastro-oesophageal cancer (https://www.doi.org/10.1038/sj.bjc.6604828)
   - Non-inflammatory mediators activin A, myostatin, GDF15, lipocalin-2
     - Emerging signaling mediators in the anorexia–cachexia syndrome of cancer (https://www.doi.org/10.1016/j.trecan.2022.01.004)
+- Engineering living therapeutics with synthetic biology (https://www.doi.org/10.1038/s41573-021-00285-3)
+  - Prosthetic gene network devices
+    - Heng, B. C., Aubel, D. & Fussenegger, M. Prosthetic gene networks as an alternative to standard pharmacotherapies for metabolic disorders. Curr. Opin. Biotechnol. 35, 37–45 (2015). (https://www.doi.org/10.1016/j.copbio.2015.01.010)
+    - Terkeltaub, R. A. Clinical practice. Gout. N. Engl. J. Med. 349, 1647–1655 (2003). (https://www.doi.org/10.1056/NEJMcp030733)
+  - Reducing immunogenic response to implanted gene network devices
+    - Doloff, J. C. et al. Colony stimulating factor-1 receptor is a central component of the foreign body response to biomaterial implants in rodents and non-human primates. Nat. Mater. 16, 671–680 (2017). (https://www.doi.org/10.1038/nmat4866)
+    - Dondossola, E. et al. Examination of the foreign body response to biomaterials by nonlinear intravital microscopy. Nat. Biomed. Eng. 1, 0007 (2016). (https://www.doi.org/10.1038/s41551-016-0007)
+    - Veiseh, O. et al. Size- and shape-dependent foreign body immune response to materials implanted in rodents and non-human primates. Nat. Mater. 14, 643–651 (2015). (https://www.doi.org/10.1038/nmat4290)
+    - Vegas, A. J. et al. Combinatorial hydrogel library enables identification of materials that mitigate the foreign body response in primates. Nat. Biotechnol. 34, 345–352 (2016). (https://www.doi.org/10.1038/nbt.3462)
+    - Bochenek, M. A. et al. Alginate encapsulation as long-term immune protection of allogeneic pancreatic islet cells transplanted into the omental bursa of macaques. Nat. Biomed. Eng. 2, 810–821 (2018). (https://www.doi.org/10.1038/s41551-018-0275-1)
+  - Prosthetic gene network device for cytokines
+    - Eyerich, S. et al. IL-22 and TNF-α represent a key cytokine combination for epidermal integrity during infection with Candida albicans. Eur. J. Immunol. 41, 1894–1901 (2011). (https://www.doi.org/10.1002/eji.201041197)
+    - Guilloteau, K. et al. Skin Inflammation Induced by the synergistic action of IL-17A, IL-22, oncostatin M, IL-1α, and TNF-α recapitulates some features of psoriasis. J. Immunol. 184, 5263–5270 (2010). (https://www.doi.org/10.4049/jimmunol.0902464)

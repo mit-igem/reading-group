@@ -63,6 +63,10 @@ def main(refs, ofile):
                 topic, refids = line[1:].strip().split(":")
                 topic2refs[topic.strip()] = refids.strip()
 
+        if doi is not None and len(topic2refs) != 0:
+            data[doi] = topic2refs.copy()
+
+
     with open(ofile, "w") as fout:
         for doi, topic2refs in data.items():
             paperrefs = get_refs(doi)
@@ -75,14 +79,19 @@ def main(refs, ofile):
                 fout.write(f"  - {topic}\n")
                 for refid in refids:
                     uid = paperrefs[refid - 1].get("DOI")
-                    title = paperrefs[refid - 1].get("article-title", "title not found")
+                    title = paperrefs[refid - 1].get("article-title")
+                    unstructured = paperrefs[refid - 1].get("unstructured", "no title")
 
                     if uid:
                         uid = f"https://www.doi.org/{uid}"
                     else:
                         uid = f"https://www.doi.org/{doi} ref {refid}"
+                    
+                    if title:
+                        fout.write(f"    - {title} ({uid})\n")
+                    else:
+                        fout.write(f"    - {unstructured} ({uid})\n")
 
-                    fout.write(f"    - {title} ({uid})\n")
 
     print("[i] Done.")
 
