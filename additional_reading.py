@@ -14,7 +14,7 @@ etc.
 """
 
 import argparse
-import os
+import json
 import requests
 
 def get_refs(doi):
@@ -22,6 +22,8 @@ def get_refs(doi):
     r = requests.get(endpoint)
 
     refs = r.json()["message"]["reference"]
+
+    print(json.dumps(refs, indent=2))
     return refs
 
 def normalize(refids):

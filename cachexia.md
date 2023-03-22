@@ -31,3 +31,7 @@
   - Prosthetic gene network device for cytokines
     - Eyerich, S. et al. IL-22 and TNF-α represent a key cytokine combination for epidermal integrity during infection with Candida albicans. Eur. J. Immunol. 41, 1894–1901 (2011). (https://www.doi.org/10.1002/eji.201041197)
     - Guilloteau, K. et al. Skin Inflammation Induced by the synergistic action of IL-17A, IL-22, oncostatin M, IL-1α, and TNF-α recapitulates some features of psoriasis. J. Immunol. 184, 5263–5270 (2010). (https://www.doi.org/10.4049/jimmunol.0902464)
+- Clinical Pharmacokinetics of Therapeutic Monoclonal Antibodies (https://www.doi.org/10.2165/11531280-000000000-00000)
+  - PK of mAbs targeting soluble antigens
+    - no title (https://www.doi.org/10.1177/0091270004272731)
+    - no title (https://www.doi.org/10.1177/0091270007306958)
