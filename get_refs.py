@@ -34,11 +34,17 @@ def get_refs(doi):
     # print(json.dumps(refs, indent=2))
 
     refs_dict = {}
+    offset = None
 
     for ref in refs:
         key = ref["key"]
         refnum = int(key[plen:len(key)-slen])
-        refs_dict[refnum] = ref
+
+        # for papers where key doesn't start at 1
+        if offset is None:
+            offset = refnum - 1
+
+        refs_dict[refnum - offset] = ref
 
     return refs_dict, title
 
